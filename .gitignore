@@ -1,1 +1,3 @@
-**/fish_variables
+/.config/fish/fish_variables
+/.config/fish/conf.d/_tide_init.fish
+/.config/fish/functions/*
