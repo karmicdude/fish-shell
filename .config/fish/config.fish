@@ -4,11 +4,6 @@
 
 fish_add_path $HOME/.local/bin
 
-if test -e /opt/asdf-vm/asdf.fish
-    source /opt/asdf-vm/asdf.fish
-    set -gx ASDF_DATA_DIR $HOME/.cache/adsf
-end
-
 if type -q zoxide
     zoxide init fish | source
 end
@@ -21,4 +16,9 @@ if status --is-interactive
     if test -f ~/.kube/config_list
         set -gx KUBECONFIG (paste -sd ':' ~/.kube/config_list)
     end
+end
+
+if test -e /opt/asdf-vm/asdf.fish
+    source /opt/asdf-vm/asdf.fish
+    set -Ux ASDF_DATA_DIR $HOME/.cache/asdf
 end

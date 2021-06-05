@@ -2,3 +2,4 @@
 .config/fish/conf.d/*
 .config/fish/functions/*
 !.config/fish/functions/_tide_item_kubectl.fish
+!.config/fish/functions/farm.fish
