@@ -1,5 +1,9 @@
 .config/fish/fish_variables
 .config/fish/conf.d/*
+.config/fish/completions/*
+!.config/fish/completions/kubectx.fish
+!.config/fish/completions/kubens.fish
+!.config/fish/completions/zoxide.fish
 .config/fish/functions/*
 !.config/fish/functions/_tide_item_kubectl.fish
 !.config/fish/functions/farm.fish
