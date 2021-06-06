@@ -13,5 +13,8 @@ abbr -a -U kns kubens
 abbr -a -U kx kubectx
 abbr -a -U tf terraform
 abbr -a -U mc mcli
+abbr -a -U c code
+abbr -a -U a ansible
+abbr -a -U ap ansible-playbook
 
 # vim: ft=fish
