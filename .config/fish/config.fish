@@ -28,3 +28,4 @@ if test -e /opt/asdf-vm/asdf.fish
 end
 
 alias bh="fzf_browser_history google-chrome-beta"
+alias bcd="fzf_bcd"
