@@ -4,3 +4,5 @@
 !.config/fish/functions/_tide_item_kubectl.fish
 !.config/fish/functions/farm.fish
 !.config/fish/functions/fish_title.fish
+!.config/fish/functions/fzf_cd.fish
+!.config/fish/functions/fzf_browser_history.fish
