@@ -29,3 +29,4 @@ end
 
 alias bh="fzf_browser_history google-chrome-beta"
 alias bcd="fzf_bcd"
+alias fcd="fzf_cd"

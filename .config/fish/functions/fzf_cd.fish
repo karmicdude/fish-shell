@@ -1,6 +1,6 @@
 function __get_dir_list -d 'Get a list of directories'
     if type -q fd
-        command fd . -t d
+        command fd . -H -t d
     else
         set_color -o red
         echo "It looks like the fd is not installed!"
