@@ -8,6 +8,7 @@ function _tide_item_kubectl
     echo $contexts | awk '{print $2, $5}' | read -a -l kubectl_status
     # set default values
     set -q tide_kubectl_context_color; or set -l tide_kubectl_context_color (set_color 0084ff)
+    set -q tide_kubectl_icon; or set -l tide_kubectl_icon '⎈'
     set -q tide_kubectl_icon_color; or set -l tide_kubectl_icon_color (set_color 0084ff)
     set -q tide_kubectl_ns_color; or set -l tide_kubectl_ns_color (set_color 389fff)
     test -n "$kubectl_status[2]"; or set kubectl_status[2] (set_color 616161)default
