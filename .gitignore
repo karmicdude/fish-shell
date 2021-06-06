@@ -6,3 +6,4 @@
 !.config/fish/functions/fish_title.fish
 !.config/fish/functions/fzf_cd.fish
 !.config/fish/functions/fzf_browser_history.fish
+!.config/fish/functions/fzf_bcd.fish

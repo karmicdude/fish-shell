@@ -19,4 +19,5 @@ function fzf_browser_history
         | fzf --reverse --ansi --multi \
         | sed 's#.*\(https*://\)#\1#' | xargs xdg-open &>/dev/null
     rm -f "/tmp/browser-history.$timestamp"
+    commandline -f repaint
 end
