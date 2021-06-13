@@ -6,7 +6,6 @@ function fish_title
     else
         echo "fish"
     end
-
 end
 
 # vim: ft=fish
