@@ -30,7 +30,3 @@ end
 alias bh="fzf_browser_history google-chrome-beta"
 alias bcd="fzf_bcd"
 alias fcd="fzf_cd"
-
-if type -q neofetch
-  neofetch | cat -s
-end
